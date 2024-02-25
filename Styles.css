@@ -18,5 +18,17 @@ body{
 }
 
 #Name{
+    font-size: 80px;
+    position: relative;
+    top: -10px;
+    left: 40px;
     color: #ffffff;
+}
+
+#Text_student{
+    font-size: 30%;
+    position: relative;
+    top: -65px;
+    left: 40px;
+    color: white;
 }
