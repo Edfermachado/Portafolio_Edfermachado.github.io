@@ -21,7 +21,7 @@ body{
     font-size: 80px;
     position: relative;
     top: -10px;
-    left: 40px;
+    left: 20px;
     color: #ffffff;
 }
 
@@ -29,6 +29,31 @@ body{
     font-size: 30%;
     position: relative;
     top: -65px;
-    left: 40px;
+    left: 20px;
     color: white;
+}
+
+#Icono_Github{
+    position: relative;
+    left: 3%;
+    top: 300px;
+    width: 65px;
+}
+
+#Icono_Linkedin{
+    position: relative;
+    left: 50px;
+    top: 303px;
+    width: 60px;
+}
+
+.SP{
+    font-size: 25px;
+    color: white;
+    position: relative;
+    top: -260px;
+    left: 800px;
+}
+#PP{
+    left: 825px;
 }
