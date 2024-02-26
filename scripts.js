@@ -2,6 +2,8 @@ function ShowHide(){
     var p = document.getElementsByClassName("Gato")[0];
     var perfil = document.getElementById("Perfil");
     var sobre = document.getElementById("SobreMi");
+    perfil.style.display = "block";
+    
 
     if(sobre.style.visibility == "hidden")
     {
