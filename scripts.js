@@ -15,3 +15,10 @@ function ShowHide(){
         perfil.style.visibility = "visible";
     }
 }
+
+function Copiar(){
+    var textarea = document.getElementById("mail");
+    textarea.select();
+    document.execCommand("copy");
+    alert("Copiado en portapales")
+}

@@ -81,3 +81,29 @@ body{
     margin-right: 100px;
     display: none;
 }
+
+#Icono_Mail{
+    position: relative;
+    left: 710px;
+    top: 300px;
+    width: 60px;
+}
+
+#mail{
+    position: relative;
+    top: 288px;
+    left: 385px;
+    font-size: 25px;
+    color:white;
+    background: none;
+    border: none;
+    scrollbar-width: none;
+    resize: none;
+}
+
+#Portapapeles{
+    position: relative;
+    left: 380px;
+    top: 285px;
+    width: 19px;
+}
