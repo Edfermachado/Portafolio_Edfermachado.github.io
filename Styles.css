@@ -43,17 +43,40 @@ body{
 #Icono_Linkedin{
     position: relative;
     left: 50px;
-    top: 303px;
+    top: 300px;
     width: 60px;
 }
 
 .SP{
+    background: none;
+    border: none;
     font-size: 25px;
     color: white;
     position: relative;
-    top: -260px;
+    top: -250px;
     left: 800px;
 }
 #PP{
+    background: none;
+    border: none;
+    font-size: 25px;
+    color: white;
+    position: relative;
+    top: -250px;
     left: 825px;
+}
+
+#SobreMi{
+    font-size: 25px;
+    color: white;
+    margin-top: -100px;
+    margin-left: 600px;
+    margin-right: 100px;
+}
+#Perfil{
+    font-size: 25px;
+    color: white;
+    margin-top: -250px;
+    margin-left: 600px;
+    margin-right: 100px;
 }
