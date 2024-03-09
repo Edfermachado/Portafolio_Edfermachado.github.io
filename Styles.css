@@ -147,7 +147,6 @@ h2{
     display: none;
 }
 
-<<<<<<< HEAD
 .slider img{
     flex: 1 0 100%;
     scroll-snap-align: start;
@@ -203,9 +202,7 @@ h3{
 }
 
 
-=======
->>>>>>> refs/remotes/origin/main
-@media (max-width: 600px){
+@media (max-width: 700px){
    .checkbtn{
     display: block;
    }
