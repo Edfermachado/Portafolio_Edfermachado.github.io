@@ -15,7 +15,7 @@ header{
     font-size: 25px;
     display: flex;
     height: 70px;
-    background-color: #333;
+    background-color: #18BEE2;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
@@ -53,11 +53,7 @@ header{
 }
 
 .hero-image{
-<<<<<<< HEAD
     background-image: url(Image/coding-924920_1920.jpg);
-=======
-    background-image: url("Image/coding-924920_1920.jpg");
->>>>>>> refs/remotes/origin/main
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -97,9 +93,11 @@ h2{
 }
 
 .caja{
+    margin-left: 30%;
     display: inline-block;
 }
-.C-text{
+.Ctext{
+
     font-size: 2rem;
     letter-spacing: 2px;
     font-family: monospace;
@@ -123,7 +121,8 @@ h2{
 }
 
 .container{
-    background-color: black;
+    background-color: gray;
+    overflow: auto;
     padding: 2rem;
 }
 
@@ -147,7 +146,62 @@ h2{
     display: none;
 }
 
-@media (max-width: 750px){
+.slider img{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;   
+}
+
+.slider-nav{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.slider-nav a{
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover{
+    opacity: 1;
+}
+
+.texto2{
+    margin: 4rem;
+}
+
+footer{
+        color: white;
+        display: flex;
+        background-color: #18BEE2;
+        padding: 10px;
+        height: 100px;
+        width: 100%;
+    }
+
+h3{
+    margin-top: 10px;
+    color: white;
+    display: block;
+}
+
+.logoF img{
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 50px;
+    height: 50px;
+}
+
+
+@media (max-width: 600px){
    .checkbtn{
     display: block;
    }
