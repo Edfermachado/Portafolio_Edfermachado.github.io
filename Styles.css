@@ -1,109 +1,178 @@
-
 body{
-    margin-top: 0 auto;
-    margin: 0 auto;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+a,li{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    font-weight: 600;
+    margin-right: 2rem;
+}
+
+header{
+    font-size: 25px;
     display: flex;
+    height: 70px;
+    background-color: #333;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
 }
 
-#Fondo{
-        width: 100vw;
-        height: 100vh;
-        background-image: linear-gradient(
-            190deg , 
-            #00002A,30%,
-            #6A1321,90%,      
-            #000000, 
-            #000000
-            );
+.menu li ul:hover{
+    color: black;
 }
 
-#Name{
-    font-size: 80px;
-    position: relative;
-    top: -10px;
-    left: 20px;
-    color: #ffffff;
+.menu ul{
+    display: flex;
+    align-items: center;
 }
 
-#Text_student{
-    font-size: 30%;
-    position: relative;
-    top: -65px;
-    left: 20px;
-    color: white;
+.menu li{
+    margin-right: 20px;
 }
 
-#Icono_Github{
-    position: relative;
-    left: 3%;
-    top: 300px;
-    width: 65px;
+.logo img{
+    height: 70px;
+    margin-left: 30px;
 }
 
-#Icono_Linkedin{
-    position: relative;
-    left: 50px;
-    top: 300px;
-    width: 60px;
+
+.menu-icon img{
+    width: 50px;
+    height: 50px;
+    border-radius: 2px;
 }
 
-.SP{
-    background: none;
-    border: none;
-    font-size: 25px;
-    color: white;
-    position: relative;
-    top: -250px;
-    left: 800px;
-}
-#PP{
-    background: none;
-    border: none;
-    font-size: 25px;
-    color: white;
-    position: relative;
-    top: -250px;
-    left: 825px;
-}
-
-#SobreMi{
-    font-size: 25px;
-    color: white;
-    margin-top: -100px;
-    margin-left: 600px;
-    margin-right: 100px;
-}
-#Perfil{
-    font-size: 25px;
-    color: white;
-    margin-top: -250px;
-    margin-left: 600px;
-    margin-right: 100px;
+.menu-icon, #check{
     display: none;
 }
 
-#Icono_Mail{
-    position: relative;
-    left: 710px;
-    top: 300px;
-    width: 60px;
+.hero-image{
+    background-image: url(/Image/coding-924920_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#mail{
-    position: relative;
-    top: 288px;
-    left: 385px;
-    font-size: 25px;
-    color:white;
-    background: none;
-    border: none;
-    scrollbar-width: none;
-    resize: none;
+.hero-text{
+    margin: 0;
+    font-size: 30px;
+    color: white;
+    text-align: left;
 }
 
-#Portapapeles{
+.hero-text h1{
+    font-size: 80px;
+    font-weight: 500px;
+    color:yellow;
+}
+
+.hero-text p{
+    font-weight: 400;
+    color: white;
+    font-size: 60px;
+}
+
+.info{
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+h2{
+  margin-top: 5rem;
+  margin-left: 4rem;
+}
+
+.caja{
+    display: inline-block;
+}
+.C-text{
+    font-size: 2rem;
+    letter-spacing: 2px;
+    font-family: monospace;
+    margin: 4rem;
+    border-right: 5px solid;
+
+    width: 65%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+        typing 2s steps(12),
+        cursor .4s step-end infinite alternate;
+}
+
+@keyframes cursor {
+    50% { border-color: transparent}    
+}
+
+@keyframes typing{
+    from{width: 0;}    
+}
+
+.container{
+    background-color: black;
+    padding: 2rem;
+}
+
+.slider-wrapper{
     position: relative;
-    left: 380px;
-    top: 285px;
-    width: 19px;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+
+.slider{
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+@media (max-width: 750px){
+   .checkbtn{
+    display: block;
+   }
+   .menu-icon{
+    display: block;
+    position: fixed;
+    top: 20px;
+    right: 30px;
+   }
+
+   .menu ul{
+    display: block;
+    position: fixed;
+    top: 85px;
+    left: -150%;
+    background: #222;
+    width: 40%;
+    height: 100vh;
+    right: 0;
+   }
+   .menu ul li{
+    padding: 2rem;
+    display: flex;
+    justify-content: left;
+    margin: 0;
+   }
+
+   #check:checked ~ ul {
+    left: 0;
+    transition: all .25s;
+   }
 }
