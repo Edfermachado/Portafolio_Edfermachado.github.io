@@ -181,12 +181,28 @@ h2{
     margin: 4rem;
 }
 
+.contacto{
+    display: flex;
+    margin: 0 auto;
+    font-size: 30px;
+    margin-top: 50px;
+    border-radius: 50px;
+    padding: 3%;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(16, 126, 16);
+    color: white;
+    width: 200px;
+
+}
+
 .logo-pie img{
     width: 80px;
     height: 80px;
 }
 
 .pie-pagina{
+    margin-top: 4rem;
     width: 100%;
     background-color: #18BEE2;
 }
@@ -244,11 +260,12 @@ h2{
     font-size: 15px;
 }
 
-@media(max-width: 720px){
+@media screen and (max-width: 720px){
    
    header{
     height: 60px;
    }
+
 
     .checkbtn{
     display: block;
@@ -307,3 +324,4 @@ h2{
 }
 
 }
+
