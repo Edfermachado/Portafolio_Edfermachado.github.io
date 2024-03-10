@@ -246,9 +246,6 @@ h2{
 
 @media screen and (max-width: 720px){
    
-   
-    .checkbtn{
-@media (max-width: 720px){
    .checkbtn{
     display: block;
    }
