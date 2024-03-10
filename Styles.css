@@ -246,7 +246,11 @@ h2{
 
 @media(max-width: 720px){
    
-   
+   header{
+    height: 60px;
+   }
+
+
     .checkbtn{
     display: block;
    }
