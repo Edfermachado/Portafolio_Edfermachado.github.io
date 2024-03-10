@@ -55,12 +55,8 @@ header{
 }
 
 .hero-image{
-<<<<<<< HEAD
     background-image: url(Image/coding-924920_1920.jpg);
-=======
-
     background-image: url("Image/coding-924920_1920.jpg");
->>>>>>> refs/remotes/origin/main
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -249,15 +245,12 @@ h2{
     font-size: 15px;
 }
 
-<<<<<<< HEAD
 @media screen and (max-width: 720px){
    
    
     .checkbtn{
-=======
 @media (max-width: 720px){
    .checkbtn{
->>>>>>> refs/remotes/origin/main
     display: block;
    }
    .menu-icon{
