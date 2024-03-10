@@ -55,7 +55,6 @@ header{
 }
 
 .hero-image{
-    background-image: url(Image/coding-924920_1920.jpg);
     background-image: url("Image/coding-924920_1920.jpg");
     background-position: center;
     background-repeat: no-repeat;
