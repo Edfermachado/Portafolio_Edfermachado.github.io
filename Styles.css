@@ -250,7 +250,6 @@ h2{
     height: 60px;
    }
 
-
     .checkbtn{
     display: block;
    }
@@ -267,7 +266,7 @@ h2{
     top: 85px;
     left: -150%;
     background: #222;
-    width: 40%;
+    width: 50%;
     height: 100vh;
     right: 0;
    }
