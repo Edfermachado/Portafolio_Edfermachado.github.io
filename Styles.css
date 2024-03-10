@@ -263,7 +263,7 @@ h2{
    .menu ul{
     display: block;
     position: fixed;
-    top: 85px;
+    top: 75px;
     left: -150%;
     background: #222;
     width: 50%;
